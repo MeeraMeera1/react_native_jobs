@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
-import { COLORS, FONT, SIZES } from "../../../constants";
+import { FONT, SIZES, COLORS } from "../../../constants";
 
 const styles = StyleSheet.create({
-    container:{
-        width: "100%",
+    container: {
+        marginTop: SIZES.xLarge,
     }
 });
 
